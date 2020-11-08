@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffff66;
+}
+
+.container {
+    height: 350px;
+    width: 70%;
+    margin: 0 15%;
+    background: gold;
+    display: flex;
+    align-items: center;
+    background-image: url(smallduck.png);
+}
+
+.box {
+    height: 70px;
+    width: 20%;
+    margin: 0 40%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+}
+
+.btn {
+  border-radius: 5px;
+  background: gold;
+  border: 1px solid orange;
+  height: 38px;
+  width: 150px;
+  font-size: 20px;
+  line-height: 0.1;
+  outline: none;
+}
+
+.btn:hover {
+  background: yellow;
+  box-shadow: 0 0 5px 1px;
+}
